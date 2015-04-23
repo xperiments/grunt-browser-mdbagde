@@ -1,6 +1,6 @@
 # grunt-browser-mdbagde
 
-	Simple grunt task that generates MarkDown Browser Compatibility Tables from json data.
+	Simple grunt task that generates MarkDown formatted Browser Compatibility Tables from JSON data.
 
 ## Install
 
@@ -19,7 +19,7 @@ To add the badge code to your MD, insert the next comment into your MD source:
 	grunt.initConfig({
 		browser-badge":{
 			basic:{
-				src:'./README.md', // <-- No dest specified, src will be overwrite
+				src:'./README.md', // <-- No dest specified, src will be overwritten
 				browsers:'./browsers.json'
 			},
 			customDestination: {
@@ -28,7 +28,7 @@ To add the badge code to your MD, insert the next comment into your MD source:
 				browsers:'./browsers.json'
 			},
 			inlineData: {
-				src:'./README.md',  // <-- No dest specified, src will be overwrite
+				src:'./README.md',  // <-- No dest specified, src will be overwritten
 				browsers:{
 					"explorer" : { "12.0" : false, "8.0" : false, "9.0" : false },
 					"firefox" : { "10.0" : true, "11.0" : true, "12.0" : false, "13.0" : true, "nightly" : true },
