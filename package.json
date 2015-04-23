@@ -1,0 +1,16 @@
+{
+  "name": "grunt-browser-mdbagde",
+  "version": "0.0.2",
+  "description": "grunt-browser-mdbagde",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xperiments/grunt-browser-mdbagde.git"
+  },
+  "author": "Pedro Casaubon <xperiments@gmail.com> (http://www.xperiments.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xperiments/grunt-browser-mdbagde/issues"
+  },
+  "homepage": "https://github.com/xperiments/grunt-browser-mdbagde"
+}
+
