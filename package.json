@@ -1,7 +1,7 @@
 {
   "name": "grunt-browser-mdbagde",
-  "version": "0.0.2",
-  "description": "grunt-browser-mdbagde",
+  "version": "0.0.3",
+  "description": "Simple grunt task that generates MarkDown formatted Browser Compatibility Tables from JSON data.",
   "repository": {
     "type": "git",
     "url": "https://github.com/xperiments/grunt-browser-mdbagde.git"
