@@ -1,6 +1,6 @@
 # grunt-browser-mdbagde
 
-	Simple grunt task that generates Browser Compatibility Tables form json data.
+	Simple grunt task that generates Browser Compatibility Tables from json data.
 
 ## Install
 
@@ -43,3 +43,15 @@ To add the badge code to your MD, insert the next comment into your MD source:
 			}
 		}
 	});
+
+## Badge Example
+
+<!--browser-badge-->
+explorer|firefox|chrome|safari|opera|iphone|ipad|android-chrome|android-browser
+---|---|---|---|---|---|---|---|---
+<sub> ⛔ 12.0 </sub>|<sub> ✅ 10.0 </sub>|<sub> ✅ 14.0 </sub>|<sub> ⛔ 5.0.5 </sub>|<sub> ⛔ 10.6 </sub>|<sub> ✅ 6.0 </sub>|<sub> ✅ 6.0 </sub>|<sub> ✅ 20.0 </sub>|<sub> ✅ 4.2 </sub>
+<sub> ⛔ 8.0 </sub>|<sub> ✅ 11.0 </sub>|<sub> ✅ 15.0 </sub>|<sub> ⛔ 5.1.0 </sub>|<sub> ⛔ 11.0 </sub>| | | |
+<sub> ⛔ 9.0 </sub>|<sub> ⛔ 12.0 </sub>|<sub> ✅ 16.0 </sub>|<sub> ✅ 5.1.1 </sub>|<sub> ⛔ 11.6 </sub>| | | |
+ |<sub> ✅ 13.0 </sub>|<sub> ✅ canary </sub>| | | | | |
+ |<sub> ✅ nightly </sub>| | | | | | |
+<!--!browser-badge-->
