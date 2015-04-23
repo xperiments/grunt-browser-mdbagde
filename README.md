@@ -1,6 +1,6 @@
 # grunt-browser-mdbagde
 
-	Simple grunt task that generates Browser Compatibility Tables from json data.
+	Simple grunt task that generates MarkDown Browser Compatibility Tables from json data.
 
 ## Install
 
