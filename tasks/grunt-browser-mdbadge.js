@@ -54,7 +54,7 @@ module.exports = function (grunt) {
             f = f.replace(/(<!--browser-badge-->)([\s\S]*)(<!--!browser-badge-->)/g,'$1\n'+table+'\n$3');
         }
 
-        grunt.file.write(this.data.dest, f );
+        grunt.file.write(this.data.dest || this.filesSrc[0], f );
 
 
     });
